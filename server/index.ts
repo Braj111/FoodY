@@ -26,7 +26,7 @@ app.use(express.json()); //parse JSON
 app.use(cookieParser ()); //verifies cookies
 
 const corsOptions ={
-    origin:"http://localhost:5173",
+    origin:"https://foody-6cr4.onrender.com",
     credentials:true,
 }
 app.use(cors(corsOptions));
