@@ -49,6 +49,9 @@ const Login = () => {
             <form onSubmit={loginSubmitHandler} className="md:p-8 w-full max-w-md rounded-lg md:border border-gray-300 mx-4 dark:text-black">
                 <div className="mb-9">
                     <h1 className="font-bold text-2xl dark:text-black">FoodY</h1>
+                    <p className="text-sm">Test (as user):test@gmail.com</p>
+                    <p className="text-sm">Test (as Admin):testadmin@gmail.com</p>
+                    <p className="text-sm">Common Password:test1234</p>
                 </div>
                 <div className="mb-4">
                     <div className="relative">
